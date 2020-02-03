@@ -34,7 +34,10 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 'error',
     '@typescript-eslint/camelcase': 0,
   },
-  "parserOptions": {
-    "warnOnUnsupportedTypeScriptVersion": false
+  'settings': {
+    'react': {
+      'version': 'detect'
+    }
   }
+
 }
